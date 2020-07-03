@@ -1,0 +1,19 @@
+Equals: a == b (True, if a and b are equals; Otherwise False)
+
+Not Equals: a != b (True, if a and b are not equals; Otherwise False)
+
+Less than: a < b (True, if a is less than b; Otherwise False)
+
+Less than or equal to:
+a <= b (True, if a is less than or equal b; Otherwise False)
+
+Greater than: a > b (True, if a is greater than b; Otherwise False)
+
+Greater than or equal to:
+a >= b (True, if a is greater than or equal b; Otherwise False)
+
+in keyword:
+a in b (True if a is present in the collection b; Otherwise False)
+
+is keyword:
+a is b (True if a and b both refer to the same object; Otherwise False)
