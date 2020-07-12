@@ -99,3 +99,8 @@ else:
     grade = "A"
 
 print("Student's grade is:",grade)
+
+---------------------------------------
+->After if / elif / else minimum space indentation is 1(recommmended 4).
+->But without indenttion condition will not work
+->Conditions will be applied till indentation is given continuously
