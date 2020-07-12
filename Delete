@@ -1,0 +1,4 @@
+To delete a variable, one can write del before a variable. For example
+Code:
+my_name = ‘xyz’
+del my_name
