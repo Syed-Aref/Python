@@ -1,10 +1,11 @@
 s1 = input() #takes input as String
 print(s1)
-print(type(s1))
+print(type(s1)) # type of s1 = str
 
 s2 = input("Enter num : ")
 print(s2)
-print( type(s2) )
+print( type(s2) ) # type of s2 = str
+# In console "Enter num : " message will be shown in first line.Then on the next line it will take input.
 
 num = int(s2) #Converts String s2 to num
 print(num)
