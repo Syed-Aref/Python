@@ -61,4 +61,5 @@ for i in range(5):
 String
 for i in "Hello":
     print(i)
-  
+------------------------- 
+indentation rule: same as if/elif/else
