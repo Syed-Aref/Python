@@ -1,0 +1,32 @@
+a + b : Addition
+
+a – b : Subtraction
+
+a * b: Multiplication
+
+a / b: Division
+
+a ** b : Exponentiation
+
+a // b: Floor division
+
+a % b: Modulus
+
+#
+
+If a = 15 and b = 4,
+
+15 + 4 = 19
+
+15 - 4 = 11
+
+15 * 4 = 60
+
+15 / 4 = 3.75
+
+15 ** 4 = 50625 #15*15*15*15
+
+15 // 4 = 3 #the floor division
+
+15 % 4 = 3
+#remainder of 15÷4
