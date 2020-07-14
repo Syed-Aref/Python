@@ -1,0 +1,52 @@
+-->Types:
+      a) void
+      b) return
+// same as java or other languages
+
+-->Function body:
+def myFunc(n) : 
+    // .. function body ..
+    // ...................
+Here, n can be string,integer or any data type
+Similarly, for multiple constructors as myFunc(n1,n2,n3) n1,n2,n3 can be any data type
+
+-->Default argument
+def myFunc(name , age = 1) : 
+    print("Name of this kid : ",name)
+    print("Age of this kid : ",age)
+myFunc("Hasan")  
+print("---------------------")
+myFunc("Ahmed",5)
+print("---------------------")
+myFunc("Anam","Five")
+print("---------------------")
+myFunc(age = '10',name = "Shaad")
+
+-->Fixing argumenst
+def func(n1,n2) : 
+    return 1*n1+2*n2;
+print( func(2,1) )
+print( func(n2=2,n1=1) )
+Output:
+4
+5
+-->Multiple number of argument in parameter
+def myFunc(*kid) : 
+    print("Name of this kid : ",kid[0])
+    print("Age of this kid : ",kid[1])
+myFunc("Hasan","Eleven") 
+print("---------------------")
+myFunc("Hossain",12)   
+
+-->Multiple number of arguments+default argument
+def myFunc(*args,val) :
+    return args[0]*args[1]*val
+print( myFunc(10,50,val = 60) )
+print( myFunc(10,50,55,val = 60) )
+Output:
+30000
+30000
+
+-->
+
+-->
