@@ -1,3 +1,5 @@
 1.uppercaseing
 s = "rrt"
 print(s.upper())
+2.length
+len(string)
