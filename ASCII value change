@@ -1,0 +1,7 @@
+s = 'i'
+t = 0
+ans = ""
+t = ord(s[0])
+if(t>=97 & t<=122) :
+    ans = ans + chr(t-32)
+print(ans)    
