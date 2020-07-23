@@ -3,3 +3,42 @@ s = "rrt"
 print(s.upper())
 2.length
 len(string)
+
+>>> str = "HeLLo FrIeNDs"
+>>> print(str.upper())
+Output: HELLO FRIENDS
+
+>>> str = "hi friend hi"
+>>> print(str.count("hi"))
+Output: 2
+>>> str = "hi friend hi"
+>>> print(str.count("hi", 0, 11))
+Output: 1
+
+>>> str = "hi friend hi"
+>>> print(str.startswith("hi"))
+Output: True
+>>> str = "hi friend hi"
+>>> print(str.startswith("fr", 3, 4))
+Output: False
+
+>>> str = "hi friend hi"
+>>> print(str.endswith("hi"))
+Output: True
+>>> str = "hi friend hi"
+>>> print(str.endswith("hi", 0, 10))
+Output: False
+
+>>> str = "Hi friend hi friend"
+>>> print(str.find("hi"))
+Output: 10
+>>> str = "Hi friend hi friend"
+>>> print(str.endswith("hi", 0, 11))
+Output: -1
+
+>>> str = "Hi friend hi friend hi"
+>>> print(str.replace("hi", "bye"))
+Output: Hi friend bye friend bye
+>>> str = "Hi friend hi friend hi"
+>>> print(str.replace("hi", "bye", 1))
+Output: Hi friend bye friend hi
