@@ -1,0 +1,33 @@
+list = []
+list.append(90)
+list.append(90)
+list[0] = 23
+# list[2] = 89 --> wrong statement;can not assign values in this way
+list.append(89)
+print(list[0])
+
+#Removing element/list
+del list3[1] # list3 = [6,8]
+del list3 #list3 will be cleared from memory.We can not access list3 unless initializing it again
+list1.clear() #All elements form list1 will be cleared but not be deleted from memory.list1 = []
+
+#List input
+s = "a,b,78"
+l2 = []
+l2  = s.split(",")
+print(l2)
+
+#Insert
+lst = [11,12,33]
+....
+....
+....
+lst.insert(index,value)
+'''
+index >= 0 & index<=len(lst)
+0 --> inserts as 1st element
+1 --> inserts as 2nd element
+len(lst) --> inserts as last element
+'''
+
+
