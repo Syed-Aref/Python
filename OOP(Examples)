@@ -126,4 +126,14 @@ print(emp1) # This prints memory
 '''
 
 
+# 8
+'''
 
+class A :
+    def meth_a(self,n) :
+        A.n = n
+        return A.n*10
+
+a = A()
+print( a.meth_a(5) )
+'''
