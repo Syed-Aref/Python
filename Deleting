@@ -1,0 +1,3 @@
+s_var = "s"
+del s
+# s_var variable can not be accessed again unless it is initialized
