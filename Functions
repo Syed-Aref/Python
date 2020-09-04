@@ -50,3 +50,33 @@ Output:
 -->
 
 -->
+
+# lambda
+print( (lambda x, y,z: (x + y+z)*(x+y+z)) (4,3,5) )
+'''
+Lambda func structure
+(lambda  ...arguments... : (..calculation..)) (..given args..)
+'''
+
+
+# pass
+def empty01() :
+    pass
+def empty02(s) :
+    pass
+def empty03(*s) :
+    pass
+
+empty01()
+empty02(12)
+empty02("Twelve")
+empty03()
+empty03(12,"Twelve")
+'''
+pass means doing nothing 
+'''
+
+
+
+
+
