@@ -15,7 +15,7 @@ class   Person :
     def view(self) :
         print("Name : ",self.name," \nAge : ",self.age)
 
-    def compare_age(self,p):
+    def compare_age(self,p): # Reference of object p passed here
         if(p.age==self.age):
             print("Same age")
         else:
@@ -44,12 +44,12 @@ class   Person :
             print("Same age")
         else:
             print("not same age")
-    def func(self,num,NAMES) :
+    def func(self,num,NAMES) : #Value of num and object of names called/passed here
         num = num+5
         nm = NAMES
         nm[0] = "Yasin"
-        print("Inside Method: ",num)
-        print("Inside Method: ",nm)
+        print("Outside Method: ",num)
+        print("Outside Method: ",nm)
 p1 = Person("Aref",21) 
 p2 = Person("Hasan",21)
 
@@ -62,7 +62,7 @@ p1.compare_age(p2)
 x = 34
 names = ["Ahmed","Khan"]
 
-p1.func(x,names)
+p1.func(x,names) 
 print("Inside Method: ",x)
 print("Inside Method: ",names)
 '''
@@ -100,7 +100,7 @@ call_instance(p3)
 class   Student :
     def __init__ (self,name="x") :
         self.name = name
-        self.id = None
+        self.id = None #None is a keyword
 s1 = Student("Hossain")  
 print(s1.id)      
 
@@ -108,7 +108,6 @@ print(s1.id)
 s2 = Student()
 print(s2.name)
 print(s2.id)
-print(10,45,67)
 '''
 
 # Method Overloading
