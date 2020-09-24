@@ -1,56 +1,72 @@
 ##Methods:
-1.uppercaseing
+1.upper caseing
 s = "rrt"
 print(s.upper())
-2.length
+
+2.lower casing
+s = "eE"
+print(s.lower())
+
+3.length
 len(string)
 
->>> str = "HeLLo FrIeNDs"
->>> print(str.upper())
-Output: HELLO FRIENDS
+4.count(string_var)
+str = "hi friend hi"
+print(str.count("hi"))
+#Output: 2
 
->>> str = "hi friend hi"
->>> print(str.count("hi"))
-Output: 2
->>> str = "hi friend hi"
->>> print(str.count("hi", 0, 11))
-Output: 1
+5.count(string_var,from,to)
+str = "hi friend hi"
+print(str.count("hi", 0, 11))
+#Output: 1
+# [from,to)
+# min value of to : from+1(unless it will not work)
 
->>> str = "hi friend hi"
->>> print(str.startswith("hi"))
-Output: True
->>> str = "hi friend hi"
->>> print(str.startswith("fr", 3, 4))
-Output: False
+6.startswith(str_var)
+str = "hi friend hi"
+print(str.startswith("hi"))
+#Output: True
 
->>> str = "hi friend hi"
->>> print(str.endswith("hi"))
-Output: True
->>> str = "hi friend hi"
->>> print(str.endswith("hi", 0, 10))
-Output: False
+7.startswith(str_var,from,to)
+str = "hi friend hi"
+print(str.startswith("fr", 3, 4))
+#Output: False
 
->>> str = "Hi friend hi friend"
->>> print(str.find("hi"))
-Output: 10
->>> str = "Hi friend hi friend"
->>> print(str.endswith("hi", 0, 11))
-Output: -1
+8.endswith(str_var)
+str = "hi friend hi"
+print(str.endswith("hi"))
+#Output: True
+>>> str = "hi friend hi"
 
->>> str = "Hi friend hi friend hi"
->>> print(str.replace("hi", "bye"))
-Output: Hi friend bye friend bye
->>> str = "Hi friend hi friend hi"
->>> print(str.replace("hi", "bye", 1))
-Output: Hi friend bye friend hi
+9.endswith(str_var,from,to)
+print(str.endswith("hi", 0, 10))
+#Output: False
+
+10.find(str_var)
+str = "Hi friend hi friend"
+print(str.find("hi"))
+#Output: 10
+# Returns first occurance
+
+11.replace(replacing_str,replaced_by_str)
+str = "Hi friend hi friend hi"
+print(str.replace("hi", "bye"))
+#Output: Hi friend bye friend bye
+#Replaces all replacing_st strings
+
+12.replace(replacing_str,replaced_by_str,n)
+str = "Hi friend hi friend hi"
+print(str.replace("hi", "bye", 1))
+#Output: Hi friend bye friend hi
+#Replaces first n replacing_st strings
 
 #SLICING
 sliced_s = s[2:6:1]
 # sliced s = s[2]s[3]s[4]s[5]
 """
 sliced_s = s[from:to:step]
-to>=from+1
-step>0 or step<0
+(*)to>=from+1
+(*)step>0 or step<0
 By default:
 (*)If from,to and all are vacant
 from = 0,to = n-1(n = string length),step = 1
@@ -62,7 +78,7 @@ s1 = s[-9::]
 print(s1)
 '''
 If in sliced function,(-)value has been set for 
-from or to, then the function auto,atically works by 
+from or to, then the function automatically works by 
 negetive indexing
 '''
 
