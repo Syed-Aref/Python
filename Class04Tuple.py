@@ -36,3 +36,4 @@ tup4 = (4,5,6,7,8)
 tup5 = tup3+tup4
 print(tup5) #OP : (1, 2, 3, 4, 5, 6, 4, 5, 6, 7, 8)
 
+# tuples allow duplcate elements
