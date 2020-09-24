@@ -29,10 +29,10 @@ print("---------------------")
 myFunc(age = '10',name = "Shaad")
 
 ##-->Fixing argumenst
-def func(n1,n2) : 
+def func01(n1,n2) : 
     return 1*n1+2*n2;
-print( func(2,1) )
-print( func(n2=2,n1=1) )
+print( func01(2,1) )
+print( func01(n2=2,n1=1) )
 '''
 Output:
 4
@@ -66,21 +66,21 @@ print( squareFunc(5) ) # (5+0)^2 = 25.Since default value for y is set 0.
 # func(not default+defalut)
 
 ##-->Multiple number of argument in parameter
-def func(*s) :
+def func03(*s) :
     print("My car is",s[0])
     print("My phone is",s[1])
-func("Toyota","Apple")    
+func03("Toyota","Apple")    
 #func("Toyota") --> Error
 '''
 Output:
 My car is  Toyota
 My phone is  Apple    
 '''
-def func01(*s) :
+def func04(*s) :
     print("My name is",s[0])
     print("My age is",s[1])
-func01("Aref",20)
-func01("Aref","Twenty")
+func04("Aref",20)
+func04("Aref","Twenty")
 '''
 Output:
 My name is Aref
