@@ -63,8 +63,9 @@ finally :
 '''
 Note : finally can be implemented only after try-except
 Q : Whats the difference between code in 'finally' or code in normal?
-A : If we use finally after try and exception, even if the code causes 
-runtime error the function/code inside finally keyword still works.
+A : Suppose, we forgot to mention a type of error.But if we use finally,
+the code till finally will be executed, then it will stop due to runtime
+error.
 '''
 
 
