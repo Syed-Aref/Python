@@ -3,6 +3,9 @@
 tup1 = (2,4,5)
 print(tup1) #OP = (2, 4, 5)
 
+#accessing
+print( tup1[2] ) #5 [3rd element;as tuple has 0-based indexing]
+
 #empty tupl
 emp_tupl = ()
 print(emp_tupl)
@@ -21,11 +24,16 @@ print(c) #OP : a
 tup1[1] = 8 -->Error
 '''
 
-# list items  in a list in tuple can be changed
+# elements of a list inside tuple can be changed(But the whole list object can not be changed/removed)
 tup = (1,[2,3,5])
 print(tup[1][1])
 tup[1][1] = 10
 print(tup[1][1])
+tup[1].clear()
+print(tup)
+#tup[1] = [] --> Wrong
+#tup[1] = [1,2] --> Wrong
+#tup[1] = "List" --> Wrong
 
 #Concatenation
 tup1 = (1,2,3)
