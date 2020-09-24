@@ -27,10 +27,10 @@ emp1 = Employee()
 class Employee :
     def __init__(self,name1,name) :
         self.name1 = name1
-        self.n = name
+        self.name = name
         
         print("An object has been created")
-        print("n :  ",self.n)
+        print("name :  ",self.name)
         print("name1 : ",self.name1)
         #printing memory
         print(self)
