@@ -38,7 +38,17 @@ else :
 '''
 False
 True
-'''        
+''' 
+
+'''
+
+For else if, python has : elif
+For else, python has : else
+For or operation,python has : or
+For and operation,python has : and
+
+'''
+
 for i in "Hello" :
     print(i)
 '''
