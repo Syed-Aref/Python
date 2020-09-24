@@ -10,7 +10,7 @@ b = 0
 
 try :
 print(a/b)
-expect Exception as e:
+except Exception as e:
     print("Error occured")
     print(e)
 
