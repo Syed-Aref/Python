@@ -7,6 +7,28 @@ Created on Sun Aug  2 21:37:45 2020
 # Empty list
 empty_list = []
 
+
+##Inserting
+#(1)
+lst = []
+lst.append(90)
+lst.append(90)
+lst[0] = 23
+# lst[2] = 89 --> wrong statement;can not assign values in this way
+lst.append(89)
+print(lst[0])
+#(2)
+'''
+lst.insert(index,value)
+index >= 0 & index<=len(lst)
+0 --> inserts as 1st element
+1 --> inserts as 2nd element
+... ... ... ... ... ... ... ... 
+... ... ... ... ... ... ... ... 
+len(lst) --> inserts as last element
+'''
+
+
 #List of single type element
 list1 = [2,3,5,7]
 
