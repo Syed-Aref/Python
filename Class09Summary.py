@@ -76,9 +76,9 @@ class AccountsC09 :
 
 a1 = AccountsC09()
 print(a1.name)
-#print( a1.__gen )
+#print( a1.__gen ) --> Error
 a1.printgen()
-#a1.__printgen()
+#a1.__printgen() --> Error
 
 a1._AccountsC09__printgen()
 print( a1._AccountsC09__gen )
@@ -89,7 +89,7 @@ class ABC :
     def __init__(self) :
         self.obj = AccountsC09()
         self.x = -10
-    def printInfo(self):
+    def printInfo(self) :
         print(self.obj.bln)
 
 abc = ABC()
