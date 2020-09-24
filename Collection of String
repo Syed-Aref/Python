@@ -1,7 +1,0 @@
-x = ["ser","ty"]
-for s in x:
-    print(s)
-Also
-x = ['ser','ty']
-for s in x:
-    print(s)  
