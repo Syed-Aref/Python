@@ -27,6 +27,10 @@ print("---------------------")
 myFunc("Anam","Five")
 print("---------------------")
 myFunc(age = '10',name = "Shaad")
+def squareFunc(x, y = 0):
+    return (x*x + 2*x*y + y*y)
+print( squareFunc(5,2) ) # (5+2)^2 = 49
+print( squareFunc(5) ) # (5+0)^2 = 25.Since default value for y is set 0.
 
 ##-->Fixing argumenst
 def func01(n1,n2) : 
@@ -59,18 +63,13 @@ Outout:
     s3 = 14
     s4 = 16
 '''   
-def squareFunc(x, y = 0):
-    return (x*x + 2*x*y + y*y)
-print( squareFunc(5,2) ) # (5+2)^2 = 49
-print( squareFunc(5) ) # (5+0)^2 = 25.Since default value for y is set 0.
-# func(not default+defalut)
 
 ##-->Multiple number of argument in parameter
 def func03(*s) :
     print("My car is",s[0])
     print("My phone is",s[1])
-func03("Toyota","Apple")    
-#func("Toyota") --> Error
+func03("Toyota","Apple")  
+#func03("Toyota") --> Error
 '''
 Output:
 My car is  Toyota
