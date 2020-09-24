@@ -1,37 +1,43 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jul 30 15:55:58 2020
+'''
+-->Types:
+      a) void
+      b) return
+// same as java or other languages
 
-@author: User
-"""
+-->Function body:
+def myFunc(n) : 
+    // .. function body ..
+    // ...................
+Here, n can be string,integer or any data type
+Similarly, for multiple constructors as myFunc(n1,n2,n3) n1,n2,n3 can be any data type
+'''
+def func(n) :
+    print("My age is",n)
 
 
-def func(*s) :
-    print("My car is",s[0])
-    print("My phone is",s[1])
-func("Toyota","Apple")    
-#func("Toyota") --> Error
+
+## -->Default argument
+def myFunc(name , age = 1) : 
+    print("Name of this kid : ",name)
+    print("Age of this kid : ",age)
+myFunc("Hasan")  
+print("---------------------")
+myFunc("Ahmed",5)
+print("---------------------")
+myFunc("Anam","Five")
+print("---------------------")
+myFunc(age = '10',name = "Shaad")
+
+##-->Fixing argumenst
+def func(n1,n2) : 
+    return 1*n1+2*n2;
+print( func(2,1) )
+print( func(n2=2,n1=1) )
 '''
 Output:
-My car is  Toyota
-My phone is  Apple    
+4
+5
 '''
-
-
-#Similar type
-def func01(*s) :
-    print("My name is",s[0])
-    print("My age is",s[1])
-func01("Aref",20)
-func01("Aref","Twenty")
-'''
-Output:
-My name is Aref
-My age is 20
-My name is Aref
-My age is Twenty
-'''
-
 def func02(s1,s2,s3,s4):
     print("s1 = ",s1)
     print("s2 = ",s2)
@@ -52,13 +58,48 @@ Outout:
     s2 = 12
     s3 = 14
     s4 = 16
-'''    
-
+'''   
 def squareFunc(x, y = 0):
     return (x*x + 2*x*y + y*y)
 print( squareFunc(5,2) ) # (5+2)^2 = 49
 print( squareFunc(5) ) # (5+0)^2 = 25.Since default value for y is set 0.
 # func(not default+defalut)
+
+##-->Multiple number of argument in parameter
+def func(*s) :
+    print("My car is",s[0])
+    print("My phone is",s[1])
+func("Toyota","Apple")    
+#func("Toyota") --> Error
+'''
+Output:
+My car is  Toyota
+My phone is  Apple    
+'''
+def func01(*s) :
+    print("My name is",s[0])
+    print("My age is",s[1])
+func01("Aref",20)
+func01("Aref","Twenty")
+'''
+Output:
+My name is Aref
+My age is 20
+My name is Aref
+My age is Twenty
+'''
+##-->Multiple number of arguments+default argument
+def myFunc_(*args,val) :
+    return args[0]*args[1]*val
+print( myFunc_(10,50,val = 60) )
+print( myFunc_(10,50,55,val = 60) )
+'''
+Output:
+30000
+30000
+'''
+
+
 
 print( (lambda x, y,z: (x + y+z)*(x+y+z)) (4,3,5) )
 '''
