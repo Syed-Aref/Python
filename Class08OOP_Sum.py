@@ -47,9 +47,9 @@ class   Person :
     def func(self,num,NAMES) : #Value of num and object of names called/passed here
         num = num+5
         nm = NAMES
-        nm[0] = "Yasin"
-        print("Outside Method: ",num)
-        print("Outside Method: ",nm)
+        nm[0] = "Yasin" 
+        print("Inside Method: ",num)
+        print("Inside Method: ",nm)
 p1 = Person("Aref",21) 
 p2 = Person("Hasan",21)
 
@@ -63,8 +63,9 @@ x = 34
 names = ["Ahmed","Khan"]
 
 p1.func(x,names) 
-print("Inside Method: ",x)
-print("Inside Method: ",names)
+print("Outside Method: ",x)
+print("Outside Method: ",names)
+# Would also work without creating nm object.( names[0] = "Yasin" )  
 '''
 
 
