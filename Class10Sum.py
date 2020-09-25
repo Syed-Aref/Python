@@ -12,11 +12,11 @@ but parent classes donot inherit from child class
 
          |-> child1
          |-> child2
-parent---|->child3
-         |->chld4
+parent---|-> child3
+         |-> chld4
 
 But, child1 -> parent is not possible
-Similarly, child2-> parent is not possile
+Similarly, child2 -> parent is not possile
 
 EX:
 
