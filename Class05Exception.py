@@ -26,7 +26,7 @@ try :
     a = int(input())
     b = int(input())
     print(a/b)
-expect Exception as e : 
+except Exception as e : 
     print(e)    
 print("Bye")
 '''
