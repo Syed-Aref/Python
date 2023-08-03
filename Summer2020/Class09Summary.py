@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Sep 12 23:19:11 2020
 
-@author: User
-"""
 
 '''
 class sum:

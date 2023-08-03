@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Sep 19 18:27:02 2020
-
-@author: User
-"""
-
-
 '''
 
 (*) No object for an abstract class(cant be created)
@@ -128,50 +120,3 @@ d1 = Dog()
 d1.make_sound()
 # We can see that abstract method from Animal is working.But it should not be used.Because abstract methods should not do anything   
 '''
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-        
-        
-        
-        
-        

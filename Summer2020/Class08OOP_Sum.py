@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Sep  1 19:20:45 2020
 
-@author: User
-"""
 
 # Pass by reference
 '''

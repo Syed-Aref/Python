@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Aug  4 17:21:49 2020
 
-@author: User
-"""
 
 # In Dictionary : 
 '''

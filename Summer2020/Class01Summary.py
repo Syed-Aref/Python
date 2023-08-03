@@ -1,9 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jul 30 15:25:12 2020
 
-@author: User
-"""
+
 print("IOP","TI",sep = " ")
 print("IOP","TI",sep = " ")
 '''

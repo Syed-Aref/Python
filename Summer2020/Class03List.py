@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Aug  2 21:37:45 2020
-
-@author: User
-"""
 # Empty list
 empty_list = []
 

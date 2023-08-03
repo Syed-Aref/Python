@@ -1,9 +1,9 @@
 # We will implement st ad queue data structure using Collections.deque()
 # We will use four methods only(All have time complexity of O(1)):
-    # deq.append(element): appends at the ending of the deque(right-end)
-    # deq.appendleft(element): appends at the begining of the deque(left-end)
-    # deq.pop(): removes the last/right-most element and return the element
-    # deq.popleft(): removes the first/left-most element and return the element
+# deq.append(element): appends at the ending of the deque(right-end)
+# deq.appendleft(element): appends at the begining of the deque(left-end)
+# deq.pop(): removes the last/right-most element and return the element
+# deq.popleft(): removes the first/left-most element and return the element
 
 
 #Queue:

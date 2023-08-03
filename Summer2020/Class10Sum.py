@@ -1,6 +1,4 @@
 '''
-
-
 Base class,parent class,super class
 Subclass,derived class,child class
 
@@ -234,42 +232,3 @@ class Dog(Animal) :
 
 d1 = Dog()
 print( d1.name )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

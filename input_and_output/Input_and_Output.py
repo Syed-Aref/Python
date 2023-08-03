@@ -11,10 +11,12 @@ num = int(s2) #Converts String s2 to num
 print(num)
 print(num*10)
 
-print(s1,s2,num*2,"iii") #Output:
-                         #s1 s2 num*2 iii
-print(s1,s2,num*2,"iii",sep=" - ")#Output:
-                                  #s1 - s2 - num*2 - iii
+print(s1,s2,num*2,"iii") 
+#Output:
+#s1 s2 num*2 iii
+print(s1,s2,num*2,"iii",sep=" - ")
+#Output:
+#s1 - s2 - num*2 - iii
 
 print("Dhaka is a big city.")
 print("Dhaka is caapital of BD.")

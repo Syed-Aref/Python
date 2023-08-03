@@ -1,60 +1,61 @@
 ##Methods:
-1.upper caseing
+# 1.upper caseing
 s = "rrt"
 print(s.upper())
 
-2.lower casing
+# 2.lower casing
 s = "eE"
 print(s.lower())
 
-3.length
+# 3.length
+string = "Aref graduated"
 len(string)
 
-4.count(string_var)
+# 4.count(string_var)
 str = "hi friend hi"
 print(str.count("hi"))
 #Output: 2
 
-5.count(string_var,from,to)
+# 5.count(string_var,from,to)
 str = "hi friend hi"
 print(str.count("hi", 0, 11))
 #Output: 1
 # [from,to)
 # min value of to : from+1(unless it will not work)
 
-6.startswith(str_var)
+# 6.startswith(str_var)
 str = "hi friend hi"
 print(str.startswith("hi"))
 #Output: True
 
-7.startswith(str_var,from,to)
+# 7.startswith(str_var,from,to)
 str = "hi friend hi"
 print(str.startswith("fr", 3, 4))
 #Output: False
 
-8.endswith(str_var)
+# 8.endswith(str_var)
 str = "hi friend hi"
 print(str.endswith("hi"))
 #Output: True
->>> str = "hi friend hi"
 
-9.endswith(str_var,from,to)
+
+# 9.endswith(str_var,from,to)
 print(str.endswith("hi", 0, 10))
 #Output: False
 
-10.find(str_var)
+# 10.find(str_var)
 str = "Hi friend hi friend"
 print(str.find("hi"))
 #Output: 10
 # Returns first occurance
 
-11.replace(replacing_str,replaced_by_str)
+# 11.replace(replacing_str,replaced_by_str)
 str = "Hi friend hi friend hi"
 print(str.replace("hi", "bye"))
 #Output: Hi friend bye friend bye
 #Replaces all replacing_st strings
 
-12.replace(replacing_str,replaced_by_str,n)
+# 12.replace(replacing_str,replaced_by_str,n)
 str = "Hi friend hi friend hi"
 print(str.replace("hi", "bye", 1))
 #Output: Hi friend bye friend hi
@@ -110,8 +111,4 @@ print( "Hello {0}.It is {1:d} pm".format("Aref",11) ) --> is also applicable
 # Number allingnment
 print("{0:>5d}".format(56))
 '''
-
-
-
-
-
+'''

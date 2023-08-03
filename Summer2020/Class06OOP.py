@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Aug 19 02:47:10 2020
 
-@author: User
-"""
 #1
 """
 class Employee :

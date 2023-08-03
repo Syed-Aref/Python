@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jun  8 14:15:30 2021
-
-@author: User
-"""
-
-
-
 nmax = 10 + 5
 inf = 1000000
 mat = [ [] for i in range(nmax) ]
